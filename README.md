@@ -1,6 +1,6 @@
-# project-3
+# Project-3
 
-![Games Logo](Images/Cost.jpeg)
+![Logo](Images/Cost.jpeg)
 
 https://kass173.github.io/project-3/
 

@@ -1,6 +1,6 @@
 # project-3
 
-![Cost](Images/bacteria.jpg)
+!(Images/Cost.jpeg)
 
 https://kass173.github.io/project-3/
 

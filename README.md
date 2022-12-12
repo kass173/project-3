@@ -8,9 +8,9 @@ https://kass173.github.io/project-3/
 
 ## Team Workloads
 
-Cheila - Data cleaning - Python.  
+Cheila - Data cleaning - Python, Database.  
 Amar - Data Clean & Front End Dev  
 Kass - Front End Dev, Readme & Proposal  
-Lionel - Database Dev.  
+Lionel - Database Dev, (SQL, Mongo DB)  
 Safo - 
 

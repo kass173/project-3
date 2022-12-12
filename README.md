@@ -6,9 +6,9 @@ Project Group: Cheila, Kassem, Amar, Lionel, Safo
 
 ## Team Workloads
 
-Cheila - Data cleaning - Python
-Amar - Data Clean & Front End Dev
-Kass - Front End Dev, Readme & Proposal
-Lionel - Database Dev
+Cheila - Data cleaning - Python.  
+Amar - Data Clean & Front End Dev  
+Kass - Front End Dev, Readme & Proposal  
+Lionel - Database Dev.  
 Safo - 
 

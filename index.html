@@ -7,17 +7,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cost Of Living Index 2022</title>
 
-    <!-- Leaflet JavaScript code -->
-    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==" crossorigin=""></script>
-    
-    <!-- D3 library -->
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    
     <!-- Leaflet CSS -->
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin="" />
 
-    <!-- Our CSS  -->
-    <link rel="stylesheet" href="style.css" />
+    <!-- Our CSS -->
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
@@ -25,6 +21,18 @@
 <body>
 
     <div id="map"></div>
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+    <!-- D3 JavaScript -->
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- API key -->
+    <script type="text/javascript" src="config.js"></script>
+    <!-- Our JavaScript -->
+    <script type="text/javascript" src="logic.js"></script>
+</body>
 
     <!-- JavaScript file -->
     <!--<script type="text/javascript" src="""></script>-->
@@ -78,20 +86,21 @@
 
 
 
-GET /get_cities_list HTTP/1.1
+<script /get_cities_list HTTP/1.1
 X-Rapidapi-Key: 1db712b1e2msh148a3290db22568p1e8747jsn4a8ff2db40da
 X-Rapidapi-Host: cities-cost-of-living1.p.rapidapi.com
-Host: cities-cost-of-living1.p.rapidapi.com
+Host: cities-cost-of-living1.p.rapidapi.com ></script>
 
-POST /get_cities_details_by_name HTTP/1.1
+<script /get_cities_details_by_name HTTP/1.1
 Content-Type: application/x-www-form-urlencoded
 X-Rapidapi-Key: 1db712b1e2msh148a3290db22568p1e8747jsn4a8ff2db40da
 X-Rapidapi-Host: cities-cost-of-living1.p.rapidapi.com
 Host: cities-cost-of-living1.p.rapidapi.com
-Content-Length: 461
+Content-Length: 461 
 
 cities=%5B%7B%22name%22%3A%22Lisbon%22%2C%22country%22%3A%22Portugal%22%7D%2C%7B%22name%22%3A%22Paris%22%2C%22country%22%3A%22Spain%20(example%20of%20wrong%20country)%22%7D%2C%7B%22name%22%3A%22Hamilton%22%2C%22country%22%3A%22Bermuda%22%7D%2C%7B%22name%22%3A%22Saint%20Francisc%20(example%20of%20wrong%20city%20name)%22%2C%22country%22%3A%22United%20States%22%7D%5D&currencies=%5B%22USD%22%2C%22Euro%20(example%20of%20wrong%20currency%20code)%22%2C%22CHF%22%5D
 
+></script>
 
 </body>
 

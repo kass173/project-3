@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cost Of Living Index 2022</title>
+
+    <style>
+        /* Style the bar chart */
+        #chart {
+          display: flex;
+          flex-direction: row;
+          height: 300px;
+          width: 600px;
+        }
+        .bar {
+          display: flex;
+          flex-direction: column;
+          width: 50px;
+          margin-right: 10px;
+        }
+        .bar-label {
+          font-size: 12px;
+          text-align: center;
+          margin-bottom: 10px;
+        }
+        .bar-value {
+          background-color: #4285f4;
+          height: 100%;
+          width: 100%;
+        }
+      </style>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 jumbotron text-center">
+                <h1>Cost Of Living Index 2022</h1>
+                <p>Use the interactive charts below to explore the dataset</p>
+            </div>
+        <div>
+         <select>
+            <option value="heatmap">Heatmap</option>
+            <option value="most-expensive bar chart">Most Expensive Places</option>
+            <option value="cheapest bar chart">Cheapest Places</option>
+            </select>
+
+    <!-- Heatmap visual -->
+    <div id="heatmap" style="display: none;">
+    
+     <!-- Include the heatmap.js library -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/heatmap.js/2.0.0/heatmap.min.js"></script>
+
+     <!-- Create a new instance of the heatmap.js library -->
+     <script>
+       var heatmap = h337.create({
+         container: document.getElementById('heatmap')
+       });
+ 
+       // Set the data for the heatmap
+       heatmap.setData({
+         max: 100,
+         data: [
+           // Add the data points for the top 20 most expensive places here
+           // Each data point should have a "value" property that indicates its relative expense
+           // and a "location" property that indicates its latitude and longitude
+           {value: 100, location: [40.7128, -74.0059]},  // New York City
+           {value: 90, location: [48.8566, 2.3522]},     // Paris
+           {value: 80, location: [35.6895, 139.6917]},   // Tokyo
+           // ...
+         ]
+       });
+     </script>
+        
+        <table>
+            <tr>
+              <th>Rank</th>
+              <th>City</th>
+              <th>Cost of Living Index</th>
+              <th>Heatmap</th>
+            </tr>
+      
+            <!-- Add rows for each of the top 20 most expensive places here -->
+            <tr>
+              <td>1</td>
+              <td>New York City</td>
+              <td>100</td>
+              <td>
+                <!-- Add a heatmap visual for the city here -->
+                <div id="heatmap-nyc" style="width: 100px; height: 100px;"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Paris</td>
+              <td>90</td>
+              <td>
+                <!-- Add a heatmap visual for the city here -->
+                <div id="heatmap-paris" style="width: 100px; height: 100px;"></div>
+              </td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Tokyo</td>
+              <td>80</td>
+              <td>
+                <!-- Add a heatmap visual for the city here -->
+                <div id="heatmap-tokyo" style="width: 100px; height: 100px;"></div>
+              </td>
+            </tr>
+          </table>
+
+          <!-- Include the heatmap.js library -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/heatmap.js/2.0.0/heatmap.min.js"></script>
+
+
+
+        
+    
+    </div>
+
+    
+    
+    
+    <!-- Most expensive places visual -->
+    <div id="most-expensive bar chart" style="display: none;">
+
+      <!-- Add code for the bar chart here -->
+    </div>
+
+    <script>
+        // Set the data for the bar chart
+        var data = [
+          // Add the data points for the top 10 most expensive places here
+          // Each data point should have a "city" and "costOfLivingIndex" property
+          {city: "New York City", costOfLivingIndex: 100},
+          {city: "Paris", costOfLivingIndex: 90},
+          {city: "Tokyo", costOfLivingIndex: 80},
+          // ...
+        ];
+  
+        // Get a reference to the container for the bar chart
+        var chartContainer = document.getElementById('chart');
+  
+        // Create a bar for each data point
+        data.forEach(function(point) {
+          var barContainer = document.createElement('div');
+          barContainer.classList.add('bar');
+  
+          // Create a label for the bar
+          var label = document.createElement('div');
+          label.classList.add('bar-label');
+          label.innerHTML = point.city;
+          barContainer.appendChild(label);
+  
+          // Create the bar itself
+          var value = document.createElement('div');
+          value.classList.add('bar-value');
+          value.style.height = point.costOfLivingIndex + '%';
+          barContainer.appendChild(value);
+  
+          chartContainer.appendChild(barContainer);
+        });
+      </script>
+
+    <!-- Cheapest places visual -->
+    <div id="cheapest bar chart" style="display: none;">
+      <!-- Add code for the bar chart here -->
+    </div>
+  </div>
+
+  <script
+  src="https://code.highcharts.com/highcharts.js"></script>>
+   
+</body>
+</html>

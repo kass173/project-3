@@ -14,6 +14,9 @@ for (var i = 0; i < data.length; i++) {
 
 
 
+
+
+
     
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -41,3 +44,4 @@ d3.json(url).then(function (data) {
         blur: 35
     }).addTo(myMap);
 });
+

@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cost Of Living Index 2022</title>
+  
+    
 
     <style>
         /* Style the bar chart */
@@ -44,12 +46,14 @@
                 <p>Use the interactive charts below to explore the dataset</p>
             </div>
         <div>
-         <select>
+         <select onchange="selectChange()" id="select">
             <option value="heatmap">Heatmap</option>
             <option value="most-expensive bar chart">Most Expensive Places</option>
             <option value="cheapest bar chart">Cheapest Places</option>
             <option value="rent index">Rent Index</option>
             </select>
+
+            <canvas id="chart"></canvas>
 
     <!-- Heatmap visual -->
     <div id="heatmap" style="display: none;">
@@ -179,12 +183,15 @@
 
   <script>
     // var data = JSON.parse(data);
-    console.log(data)
   </script>
   <script
-  src="https://code.highcharts.com/highcharts.js"></script>>
-  
+  src="https://code.highcharts.com/highcharts.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
   <!-- <script src="{{url_for('static', filename='js/app.js')}}"></script> -->
-   
+  <script src="{{url_for('static', filename='js/charts.js')}}"></script>   
+
+
+
 </body>
 </html>
+

@@ -48,6 +48,7 @@
             <option value="heatmap">Heatmap</option>
             <option value="most-expensive bar chart">Most Expensive Places</option>
             <option value="cheapest bar chart">Cheapest Places</option>
+            <option value="rent index">Rent Index</option>
             </select>
 
     <!-- Heatmap visual -->
@@ -135,14 +136,16 @@
 
     <script>
         // Set the data for the bar chart
-        var data = [
+        //var data = [
           // Add the data points for the top 10 most expensive places here
           // Each data point should have a "city" and "costOfLivingIndex" property
-          {city: "New York City", costOfLivingIndex: 100},
-          {city: "Paris", costOfLivingIndex: 90},
-          {city: "Tokyo", costOfLivingIndex: 80},
+          //{city: "New York City", costOfLivingIndex: 100},
+          //{city: "Paris", costOfLivingIndex: 90},
+          //{city: "Tokyo", costOfLivingIndex: 80},
           // ...
-        ];
+        //];
+
+        var data = JSON.parse({{ data|tojson }}) 
   
         // Get a reference to the container for the bar chart
         var chartContainer = document.getElementById('chart');
@@ -164,7 +167,7 @@
           value.style.height = point.costOfLivingIndex + '%';
           barContainer.appendChild(value);
   
-          chartContainer.appendChild(barContainer);
+          //chartContainer.appendChild(barContainer);
         });
       </script>
 
@@ -174,8 +177,14 @@
     </div>
   </div>
 
+  <script>
+    // var data = JSON.parse(data);
+    console.log(data)
+  </script>
   <script
   src="https://code.highcharts.com/highcharts.js"></script>>
+  
+  <!-- <script src="{{url_for('static', filename='js/app.js')}}"></script> -->
    
 </body>
 </html>

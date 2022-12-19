@@ -27,3 +27,5 @@ looking at the cheapest and most expensive places to live and lastly, a visual l
 for the front end based on our wire frame 
 
 ![Wireframe](Wireframes/Final Wireframe of Project 3.png)
+
+https://github.com/kass173/project-3/blob/main/Wireframes/Final%20Wireframe%20of%20Project%203.png

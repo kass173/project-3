@@ -24,6 +24,8 @@ looking at the cheapest and most expensive places to live and lastly, a visual l
 
 ## Front End
 
+![Front](Images/front end.png)
+
 For the front end we based our web based dashboard on our final wire frame. 
 
 https://github.com/kass173/project-3/blob/main/Wireframes/Final%20Wireframe%20of%20Project%203.png

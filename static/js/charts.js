@@ -43,7 +43,7 @@ function leastExpensiveChart(){
 // Bar Chart - Rent Index -
 function rentIndexChart(){
     const rentIndex = data
-        .filter(row=>row.Year=2022)
+        .filter(row=>row.Year==2022)
         .sort((a,b)=>b.Rent_Index-a.Rent_Index)
         .slice(0,10)
     new Chart(document.getElementById("chart"), {

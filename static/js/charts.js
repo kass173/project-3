@@ -9,7 +9,7 @@ function mostExpensiveChart(){
         data: {
             labels: mostExpensive.map(row=>row.Country),
             datasets:[{
-                label:"Cost Of Living (inc rent) Index",
+                label:"Most Expensive Cost Of Living (inc rent) Index",
                 data:mostExpensive.map(row=>row.Cost_of_Living_Plus_Rent_Index),
                 backgroundColor:["blue","red","orange","yellow","green","purple","pink","cyan","grey", "black"]
 
@@ -31,7 +31,7 @@ function leastExpensiveChart(){
         data: {
             labels: leastExpensive.map(row=>row.Country),
             datasets:[{
-                label:"Cost Of Living (inc rent) Index",
+                label:"Cheapest Cost Of Living (inc rent) Index",
                 data:leastExpensive.map(row=>row.Cost_of_Living_Plus_Rent_Index),
                 backgroundColor:["blue","red","orange","yellow","green","purple","pink","cyan","grey", "black"]
             }]      
@@ -47,7 +47,7 @@ function rentIndexChart(){
         .sort((a,b)=>b.Rent_Index-a.Rent_Index)
         .slice(0,10)
     new Chart(document.getElementById("chart"), {
-        type: "bar",
+        type: "pie",
         data: {
             labels: rentIndex.map(row=>row.Country),
             datasets:[{

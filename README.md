@@ -29,14 +29,22 @@ For the front end we based our web based dashboard on our final wire frame.
 https://github.com/kass173/project-3/blob/main/Wireframes/Final%20Wireframe%20of%20Project%203.png
 
 ### 1. HTML Pages
-firstly, we built the html webpage that our visual dashboard would sit on the main piece of work here was to create our drop down list as opposed to the 
+Firstly, we built the html webpage that our visual dashboard would sit on the main piece of work here was to create our drop down list as opposed to the 
 easier route of creating seperate pages for our visuals to sit on.  
 As well as the course links for our visualisations.
 
 ### 2. SQL Database & app.py
-secondly, we create our script to connect our databased to the html and defined the routes for the data by creating and "app.route". And defined the data we wanted to select from our database table and connect and injected into our webpage. Now that this was done we could focus on creating our visuals.
+Secondly, we create our script to connect our databased to the html and defined the routes for the data by creating and "app.route". And defined the data
+we wanted to select from our database table and connect and injected into our webpage. Now that this was done we could focus on creating our visuals.
 
 ### 3. Java Script
+Lastly,
+
+
+A minimum of three unique views present the data. (5 points)  
+Multiple user-driven interactions (such as dropdowns, filters, or a zoom feature) are included on the final page. (5 points)  
+The final page displays visualizations in a clear, digestable manner. (5 points).  
+The data story is easy to interpret for users of all levels. (5 points).  
 
 
 ## Back End

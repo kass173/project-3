@@ -38,7 +38,7 @@ Secondly, we create our script to connect our databased to the html and defined 
 we wanted to select from our database table and connect and injected into our webpage. Now that this was done we could focus on creating our visuals.
 
 ### 3. Java Script
-Lastly,
+Lastly, we used Javascript to produce our visualisations for our webpage dashbaord. We were required to create a minimum of 3 unique views to present our data we met this 
 
 
 A minimum of three unique views present the data. (5 points)  

@@ -1,7 +1,7 @@
 // Bar Chart - Top 10 most expensive -
 function mostExpensiveChart(){
     const mostExpensive = data
-        .filter(row=>row.Year=2022)
+        .filter(row=>row.Year==2022)
         .sort((a,b)=>b.Cost_of_Living_Plus_Rent_Index-a.Cost_of_Living_Plus_Rent_Index)
         .slice(0,10)
     new Chart(document.getElementById("chart"), {
@@ -23,7 +23,7 @@ function mostExpensiveChart(){
 // Bar Chart - Top 10 least expensive
 function leastExpensiveChart(){
     const leastExpensive = data
-        .filter(row=>row.Year=2022)
+        .filter(row=>row.Year==2022)
         .sort((a,b)=>a.Cost_of_Living_Plus_Rent_Index-b.Cost_of_Living_Plus_Rent_Index)
         .slice(0,10)
     new Chart(document.getElementById("chart"), {

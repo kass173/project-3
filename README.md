@@ -38,14 +38,15 @@ Secondly, we create our script to connect our databased to the html and defined 
 we wanted to select from our database table and connect and injected into our webpage. Now that this was done we could focus on creating our visuals.
 
 ### 3. Java Script
-Lastly, we used Javascript to produce our visualisations for our webpage dashbaord. We were required to create a minimum of 3 unique views to present our data we met this 
+Lastly, we used Javascript to produce our visualisations for our webpage dashboard. We were required to create a minimum of 3 unique views to present our
+data we met this by creating 4 visuals in 3 differant unique ways. We created a heatmap to show the cost of living index across the world, we then
+created 2 bar charts for the top 10 most expensive and cheapest places to live based on cost of living and then we looked just at the rent index and
+focused on the most expensive places to live just based on rent.   
 
-
-A minimum of three unique views present the data. (5 points)  
-Multiple user-driven interactions (such as dropdowns, filters, or a zoom feature) are included on the final page. (5 points)  
-The final page displays visualizations in a clear, digestable manner. (5 points).  
-The data story is easy to interpret for users of all levels. (5 points).  
-
+The dashboard is multiple user-driven interactions (such as by using dropdowns menu, a hover function to show intrinsic data and a x feature) which is
+included all on a single webpage dashbaord.  
+The final page displays visualizations in a clear, digestable manner and is clearly displayed with no to many data lables to focus on and the data story
+is easy to interpret for users of all levels.
 
 ## Back End
 

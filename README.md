@@ -16,7 +16,9 @@ Safo -
 
 ### Dataset
 
-[Cost Of Living data](Resources/Cost_of_Living_2022.csv)
+[Cost Of Living data 2022](Resources/Cost_of_Living_2022.csv)
+Cost Of Living data 2021](Resources/Cost_of_Living_2021.csv)
+Cost Of Living data 2020](Resources/Cost_of_Living_2020.csv)
 
 ### Intro
 

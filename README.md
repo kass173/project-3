@@ -39,6 +39,21 @@ secondly, we create our script to connect our databased to the html and defined 
 ### 3. Java Script
 
 
+## Back End
+
+Data and Delivery (20 points)
+1.Data components used in the project are clearly documented. (5 points).  
+2.The dataset contains at least 100 unique records. (5 points).  
+3. A database is used to house the data (SQL, MongoDB, SQLite, etc.). (5 points).  
+4. The project is powered by a Python Flask API and includes HTML/CSS, JavaScript, and the chosen database. (5 points).  
+
+Back End (20 points)
+1. The page created to showcase data visualizations runs without error. (5 points).  
+2. A JavaScript library not shown in class is used in the project. (5 points).  
+3. The project conforms to one of the following designs: (10 points)
+A Leaflet or Plotly chart built from data gathered through web scraping.
+A dashboard page with multiple charts that all reference the same data.
+
 
 
 

@@ -4,7 +4,7 @@
 
 https://kass173.github.io/project-3/
 
-## Project Group: Cheila, Kassem, Amar, Lionel, Safo
+## Project Group: Cheila, Kassem, Amar, Lionel, Safo  
 
 ## Team Workloads
 
@@ -29,15 +29,38 @@ For the front end we based our web based dashboard on our final wire frame.
 https://github.com/kass173/project-3/blob/main/Wireframes/Final%20Wireframe%20of%20Project%203.png
 
 ### 1. HTML Pages
-firstly, we built the html webpage that our visual dashboard would sit on the main piece of work here was to create our drop down list as opposed to the 
+Firstly, we built the html webpage that our visual dashboard would sit on the main piece of work here was to create our drop down list as opposed to the 
 easier route of creating seperate pages for our visuals to sit on.  
 As well as the course links for our visualisations.
 
 ### 2. SQL Database & app.py
-secondly, we create our script to connect our databased to the html and defined the routes for the data by creating and "app.route". And defined the data we wanted to select from our database table and connect and injected into our webpage. Now that this was done we could focus on creating our visuals.
+Secondly, we create our script to connect our databased to the html and defined the routes for the data by creating and "app.route". And defined the data
+we wanted to select from our database table and connect and injected into our webpage. Now that this was done we could focus on creating our visuals.
 
 ### 3. Java Script
+Lastly,
 
+
+A minimum of three unique views present the data. (5 points)  
+Multiple user-driven interactions (such as dropdowns, filters, or a zoom feature) are included on the final page. (5 points)  
+The final page displays visualizations in a clear, digestable manner. (5 points).  
+The data story is easy to interpret for users of all levels. (5 points).  
+
+
+## Back End
+
+Data and Delivery (20 points)
+1.Data components used in the project are clearly documented. (5 points).  
+2.The dataset contains at least 100 unique records. (5 points).  
+3. A database is used to house the data (SQL, MongoDB, SQLite, etc.). (5 points).  
+4. The project is powered by a Python Flask API and includes HTML/CSS, JavaScript, and the chosen database. (5 points).  
+
+Back End (20 points)
+1. The page created to showcase data visualizations runs without error. (5 points).  
+2. A JavaScript library not shown in class is used in the project. (5 points).  
+3. The project conforms to one of the following designs: (10 points)
+A Leaflet or Plotly chart built from data gathered through web scraping.
+A dashboard page with multiple charts that all reference the same data.
 
 
 

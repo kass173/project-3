@@ -30,7 +30,7 @@ looking at the cheapest and most expensive places to live and lastly, a visual l
 
 ## Front End
 
-![Front](Images/front end.png)
+![Front](Images/front end.jpeg)
 
 For the front end we based our web based dashboard on our final wire frame. 
 

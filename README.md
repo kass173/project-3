@@ -14,6 +14,10 @@ Kass - Front End Dev, Readme & Proposal
 Lionel - Database Dev, (SQL, Mongo DB)  
 Safo - 
 
+### Dataset
+
+[Cost Of Living data](Resources/Cost_of_Living_2022.csv)
+
 ### Intro
 
 Our topic is to analyse the cost of living trends in 2022. The rationale behind this is as we are all currently living in the difficult times 

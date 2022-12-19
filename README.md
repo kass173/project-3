@@ -28,6 +28,8 @@ For the front end we based our web based dashbaord on our final wire frame.
 
 ![Wireframe](Wireframes/Final Wireframe of Project 3.png)
 
+![Wireframe](Images/Final Wireframe of Project 3.png)
+
 https://github.com/kass173/project-3/blob/main/Wireframes/Final%20Wireframe%20of%20Project%203.png
 
 

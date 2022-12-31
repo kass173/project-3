@@ -81,7 +81,7 @@ Finally, and very important, a **SQLite database** was created (`/Resources/cost
 
 ## Front End
 
-![Front](Images/front end.jpeg)
+![Front](/Images/front end.jpeg)
 
 For the front end we based our web based dashboard on our final wire frame. 
 

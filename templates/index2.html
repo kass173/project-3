@@ -9,32 +9,9 @@
   
     
 
-    <style>
-        /* Style the bar chart */
-        #chart {
-          display: flex;
-          flex-direction: row;
-          height: 300px;
-          width: 600px;
-        }
-        .bar {
-          display: flex;
-          flex-direction: column;
-          width: 50px;
-          margin-right: 10px;
-        }
-        .bar-label {
-          font-size: 12px;
-          text-align: center;
-          margin-bottom: 10px;
-        }
-        .bar-value {
-          background-color: #4285f4;
-          height: 100%;
-          width: 100%;
-        }
-      </style>
-
+      <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='css/style.css')}}">
+ <!-- Leaflet CSS -->
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css" integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
 </head>
 
@@ -45,15 +22,16 @@
                 <h1>Cost Of Living Index 2022</h1>
                 <p>Use the interactive charts below to explore the dataset</p>
             </div>
-        <div>
+          </div>
          <select onchange="selectChange()" id="select">
-            <option value="heatmap">Heatmap</option>
             <option value="most-expensive bar chart">Most Expensive Places</option>
             <option value="cheapest bar chart">Cheapest Places</option>
             <option value="rent index">Rent Index</option>
             </select>
 
             <canvas id="chart"></canvas>
+<!-- The div that holds our map -->
+<div id="map"></div>
 
     <!-- Heatmap visual -->
     <div id="heatmap" style="display: none;">
@@ -181,6 +159,9 @@
     </div>
   </div>
 
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js" integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+
   <script>
     // var data = JSON.parse(data);
   </script>
@@ -189,6 +170,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
   <!-- <script src="{{url_for('static', filename='js/app.js')}}"></script> -->
   <script src="{{url_for('static', filename='js/charts.js')}}"></script>   
+
+
 
 
 

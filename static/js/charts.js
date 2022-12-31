@@ -1,10 +1,12 @@
+var layerGroup=L.layerGroup()
+var chart 
 // Bar Chart - Top 10 most expensive -
 function mostExpensiveChart(){
     const mostExpensive = data
         .filter(row=>row.Year==2022)
         .sort((a,b)=>b.Cost_of_Living_Plus_Rent_Index-a.Cost_of_Living_Plus_Rent_Index)
         .slice(0,10)
-    new Chart(document.getElementById("chart"), {
+    chart=new Chart(document.getElementById("chart"), {
         type: "bar",
         data: {
             labels: mostExpensive.map(row=>row.Country),
@@ -17,6 +19,8 @@ function mostExpensiveChart(){
         }
 
     })
+    layerGroup.clearLayers()
+    mostExpensive.forEach(row=>L.marker([row.lat,row.lng]).addTo(layerGroup).bindPopup(row.Country))
 }
 // Least Expensive
 
@@ -26,7 +30,7 @@ function leastExpensiveChart(){
         .filter(row=>row.Year==2022)
         .sort((a,b)=>a.Cost_of_Living_Plus_Rent_Index-b.Cost_of_Living_Plus_Rent_Index)
         .slice(0,10)
-    new Chart(document.getElementById("chart"), {
+    chart=new Chart(document.getElementById("chart"), {
         type: "bar",
         data: {
             labels: leastExpensive.map(row=>row.Country),
@@ -38,6 +42,8 @@ function leastExpensiveChart(){
         }
 
     })
+    layerGroup.clearLayers()
+    leastExpensive.forEach(row=>L.marker([row.lat,row.lng]).addTo(layerGroup).bindPopup(row.Country))
 }
 
 // Bar Chart - Rent Index -
@@ -46,7 +52,7 @@ function rentIndexChart(){
         .filter(row=>row.Year==2022)
         .sort((a,b)=>b.Rent_Index-a.Rent_Index)
         .slice(0,10)
-    new Chart(document.getElementById("chart"), {
+    chart=new Chart(document.getElementById("chart"), {
         type: "pie",
         data: {
             labels: rentIndex.map(row=>row.Country),
@@ -58,19 +64,30 @@ function rentIndexChart(){
         }
 
     })
+    layerGroup.clearLayers()
+    rentIndex.forEach(row=>L.marker([row.lat,row.lng]).addTo(layerGroup).bindPopup(row.Country))
 }
 
 // Heat Map - 
 
-function heatmapChart(){
+function mapChart(){
+    var map = L.map('map').setView([0,0],1);
 
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    layerGroup.addTo(map)
+    
 }
 
 function selectChange(){
    const value=document.getElementById("select").value
-   if (value=="heatmap"){ 
-    heatmapChart()
-   } else if (value=="most-expensive bar chart") {
+ if (chart){
+    chart.destroy()
+    chart=null
+ }
+   if (value=="most-expensive bar chart") {
     mostExpensiveChart()
    } else if (value=="cheapest bar chart") {
     leastExpensiveChart()
@@ -79,4 +96,5 @@ function selectChange(){
    }
 }
 
-heatmapChart()
+mostExpensiveChart()
+mapChart()

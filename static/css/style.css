@@ -3,34 +3,36 @@ body {
     margin: 0;
   }
   
-  #map,
   body,
   html {
     height: 100%;
   }
-  
-  
-  .legend {
-    line-height: 18px;
-    color: #555;
-  }
-  .legend i {
-    width: 18px;
-    height: 18px;
-    float: left;
-    margin-right: 8px;
-    opacity: 0.7;
+
+  #map {
+    height: 50vh;
+    margin-top: 10px;
   }
   
-  .info {
-    padding: 6px 8px;
-    font: 14px/16px Arial, Helvetica, sans-serif;
-    background: white;
-    background: rgba(255,255,255,0.8);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 5px;
+  
+  #chart {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 600px;
   }
-  .info h4 {
-    margin: 0 0 5px;
-    color: #777;
+  .bar {
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    margin-right: 10px;
+  }
+  .bar-label {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .bar-value {
+    background-color: #4285f4;
+    height: 100%;
+    width: 100%;
   }

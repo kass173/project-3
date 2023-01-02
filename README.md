@@ -119,7 +119,7 @@ Data and Delivery (20 points)
 
 The page created to showcase out data visualizations runs now without error. And their is a JavaScript library that was not shown in class used in the 
 project. The project also conforms to A Leaflet and Plotly chart built from data gathered through out datasets. Lastly, we now have a dashboard page with 
-multiple charts that all reference the same data.
+multiple charts that all reference the same data. 
 
 
 

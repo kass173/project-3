@@ -81,9 +81,11 @@ Finally, and very important, a **SQLite database** was created (`/Resources/cost
 
 ## Front End
 
-![Front](/Images/front end.png)
+![Front End](/Image/front end.png)
 
 For the front end we based our web based dashboard on our final wire frame. 
+
+![Wireframe](/Images/wireframe.png)
 
 https://github.com/kass173/project-3/blob/main/Wireframes/Final%20Wireframe%20of%20Project%203.png
 

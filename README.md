@@ -115,12 +115,9 @@ Data and Delivery (20 points)
 3. A database is used to house the data (SQL, MongoDB, SQLite, etc.). (5 points).  
 4. The project is powered by a Python Flask API and includes HTML/CSS, JavaScript, and the chosen database. (5 points).  
 
-Back End (20 points)
-1. The page created to showcase data visualizations runs without error. (5 points).  
-2. A JavaScript library not shown in class is used in the project. (5 points).  
-3. The project conforms to one of the following designs: (10 points)
-A Leaflet or Plotly chart built from data gathered through web scraping.
-A dashboard page with multiple charts that all reference the same data.
+The page created to showcase out data visualizations runs now without error. And their is a JavaScript library that was not shown in class used in the 
+project. The project also conforms to A Leaflet and Plotly chart built from data gathered through out datasets. Lastly, we now have a dashboard page with 
+multiple charts that all reference the same data.
 
 
 

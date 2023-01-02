@@ -123,7 +123,7 @@ multiple charts that all reference the same data.
 
 ## Final Webpage
 
-![Final Webpage](/Images/final webpage.png)
+![Final Webpage](Images/final webpage.png)
 
 
 

@@ -121,6 +121,10 @@ The page created to showcase out data visualizations runs now without error. And
 project. The project also conforms to A Leaflet and Plotly chart built from data gathered through out datasets. Lastly, we now have a dashboard page with 
 multiple charts that all reference the same data. 
 
+## Final Webpage
+
+![Final Webpage](Images/final webpage.png)
+
 
 
 

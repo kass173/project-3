@@ -103,8 +103,11 @@ We then ensured our visuals also gave information to the end user in a digestabl
 visual.
 
 ### 2. SQL Database & app.py
-Secondly, we create our script to connect our databased to the html and defined the routes for the data by creating and "app.route". And defined the data
-we wanted to select from our database table and connect and injected into our webpage. Now that this was done we could focus on creating our visuals.
+Secondly, we create our script to connect our databased to the HTML within the app.py file and defined the routes for the data by creating and 
+"app.route". We used Flask and created an engine linking to our SQLite database. `@app.route("/cost-of-living")` `http://127.0.0.1:5000/cost-of-living`. 
+
+After we defined the data we wanted to select from our database table and connect and inject the data into our webpage dashboard. This was done so we 
+could focus on creating our visuals using Javascript.
 
 ### 3. Java Script
 Lastly, we used Javascript to produce our visualisations for our webpage dashboard. We were required to create a minimum of 3 unique views to present our

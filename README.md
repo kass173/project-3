@@ -90,9 +90,17 @@ For the front end we based our web based dashboard on our final wire frame.
 https://github.com/kass173/project-3/blob/main/Wireframes/Final%20Wireframe%20of%20Project%203.png
 
 ### 1. HTML Pages
-Firstly, we built the html webpage that our visual dashboard would sit on the main piece of work here was to create our drop down list as opposed to the 
-easier route of creating seperate pages for our visuals to sit on.  
-As well as the course links for our visualisations.
+Firstly, we built the html webpage that our visual dashboard would sit on. The main piece of work here was to create our drop down list as opposed to 
+the easier route of creating seperate pages for our visuals.  
+
+![Dropdow](/Images/drop down.png)
+
+On this page we also injected the code to hold our visuals such as the map visual and chart visuals such as our bar and pie chart.
+
+We used leaflet JS for our map visual as well as and plotly for our bar and pie chart visual.  
+We also used JSON parsing which was the process of converting our JSON object in text format to a Javascript object.
+We then ensured our visuals also gave information to the end user in a digestable format by creating the relevant data lables when you hovered over the 
+visual.
 
 ### 2. SQL Database & app.py
 Secondly, we create our script to connect our databased to the html and defined the routes for the data by creating and "app.route". And defined the data

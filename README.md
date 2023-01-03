@@ -110,27 +110,17 @@ After we defined the data we wanted to select from our database table and connec
 could focus on creating our visuals using Javascript.
 
 ### 3. Java Script
-Lastly, we used Javascript to produce our visualisations for our webpage dashboard. We were required to create a minimum of 3 unique views to present our
-data we met this by creating 4 visuals in 3 differant unique ways. We created a heatmap to show the cost of living index across the world, we then
-created 2 bar charts for the top 10 most expensive and cheapest places to live based on cost of living and then we looked just at the rent index and
-focused on the most expensive places to live just based on rent.   
+Lastly, we used Javascript to produce our visualisations `(chart.js)` for our webpage dashboard. We were required to create a minimum of 3 unique views 
+to present our data we met this by creating 4 visuals in 3 differant unique ways `(Heatmap, Bar Chart, Pie Chart)`.  
+We created a heatmap to show the cost of living index across the world, we created 2 bar charts for the 10 most expensive and cheapest places to 
+live based on cost of living data withn the SQLite database. Then we looked just at the rent index and focused on the most expensive places to live just 
+based on rent.   
 
-The dashboard is multiple user-driven interactions (such as by using dropdowns menu, a hover function to show intrinsic data and a x feature) which is
-included all on a single webpage dashbaord.  
+The dashboard has multiple user-driven interactions (such as by using dropdowns menu, a hover function to show intrinsic data) which is included all on 
+a single webpage dashbaord.  
+
 The final page displays visualizations in a clear, digestable manner and is clearly displayed with no to many data lables to focus on and the data story
 is easy to interpret for users of all levels.
-
-## Back End
-
-Data and Delivery (20 points)
-1.Data components used in the project are clearly documented. (5 points).  
-2.The dataset contains at least 100 unique records. (5 points).  
-3. A database is used to house the data (SQL, MongoDB, SQLite, etc.). (5 points).  
-4. The project is powered by a Python Flask API and includes HTML/CSS, JavaScript, and the chosen database. (5 points).  
-
-The page created to showcase out data visualizations runs now without error. And their is a JavaScript library that was not shown in class used in the 
-project. The project also conforms to A Leaflet and Plotly chart built from data gathered through out datasets. Lastly, we now have a dashboard page with 
-multiple charts that all reference the same data. 
 
 ## Final Webpage
 

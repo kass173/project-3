@@ -81,7 +81,7 @@ Finally, and very important, a **SQLite database** was created (`/Resources/cost
 
 ## Front End
 
-![Front End](/Image/front end.png)
+![Front End](/Images/front%20end.png)
 
 For the front end we based our web based dashboard on our final wire frame. 
 
@@ -93,7 +93,7 @@ https://github.com/kass173/project-3/blob/main/Wireframes/Final%20Wireframe%20of
 Firstly, we built the html webpage that our visual dashboard would sit on. The main piece of work here was to create our drop down list as opposed to 
 the easier route of creating seperate pages for our visuals.  
 
-![Dropdow](/Images/drop down.png)
+![Dropdow](/Images/drop%20down.png)
 
 On this page we also injected the code to hold our visuals such as the map visual and chart visuals such as our bar and pie chart.
 
@@ -124,7 +124,7 @@ is easy to interpret for users of all levels.
 
 ## Final Webpage
 
-![Final Webpage](Images/final webpage.png)
+![Final Webpage](/Images/final%20webpage.png)
 
 
 

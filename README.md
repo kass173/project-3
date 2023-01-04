@@ -11,7 +11,7 @@ https://kass173.github.io/project-3/
 Cheila - Data cleaning - Python, Database.  
 Amar - Data Clean & Front End Dev  
 Kass - Front End Dev, Readme & Proposal  
-Lionel - Database Dev, (SQL, Mongo DB)  
+Lionel - Database Dev, (SQLite)  
 Safo - 
 
 ### Dataset

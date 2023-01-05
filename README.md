@@ -8,7 +8,7 @@ https://kass173.github.io/project-3/
 
 ## Team Workloads
 
-Cheila - Data cleaning - Python, Database.  
+Cheila - Wirefranes, Data cleaning, Python ETL, Database, Readme.  
 Amar - Data Clean & Front End Dev  
 Kass - Front End Dev, Readme & Proposal  
 Lionel - Database Dev, (SQLite)  
@@ -125,7 +125,3 @@ is easy to interpret for users of all levels.
 ## Final Webpage
 
 ![Final Webpage](/Images/final%20webpage.png)
-
-
-
-
